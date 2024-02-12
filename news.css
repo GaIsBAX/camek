@@ -1,0 +1,144 @@
+.news {
+  background-color: #edf2ff;
+  padding: 20px 0 80px 0;
+}
+
+.news__camek {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 0;
+  margin: 0 0 40px 0;
+  flex-wrap: wrap;
+}
+
+.devider__verticallyi {
+  width: 2px;
+  height: 32px;
+  background-color: #000000;
+  opacity: 0.43;
+  border: none;
+  margin: 0 auto;
+}
+
+.news__title {
+  color: #595959;
+  font-size: 16;
+  font-weight: 300;
+}
+
+.news__news {
+  padding: 15px 0 0 0;
+}
+
+.news__news-wrapper {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.news1 {
+  /* width: 995px; */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 0 40px;
+  flex-wrap: wrap;
+}
+
+.big__card1 {
+  width: 585px;
+  height: 430px;
+  background: url(../assets/image/Rectangle\ 30.png) center/cover no-repeat;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: column;
+  margin: 0 40px 0 0;
+  gap: 10px 0;
+}
+
+.big__card-title {
+  margin: 0 0 0 14px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+}
+
+.big__card-decription {
+  margin: 0 0 0 10px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.big__card-title::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: #fff;
+  top: 45px;
+  left: 0;
+}
+
+.small__card {
+  width: 272px;
+  height: 430px;
+  background-color: #ffffff;
+}
+
+.small__card-title {
+  color: #4b4b4b;
+  position: relative;
+}
+
+.small__card-title::after {
+  position: absolute;
+  content: "";
+  width: 75px;
+  height: 2px;
+  background-color: #4b4b4b;
+  top: 25px;
+  left: 0;
+}
+
+.smaill__card-decription {
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}
+.news2 {
+  /* width: 1500px; */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: start;
+  gap: 0 40px;
+  flex-wrap: wrap;
+}
+
+.big__card2 {
+  width: 585px;
+  height: 430px;
+  background: url(../assets/image/Rectangle\ 30.png) center/cover no-repeat;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: column;
+  margin: 0 0 0 40px;
+  gap: 10px 0;
+}
+
+.news__image {
+  width: 272px;
+  height: 244px;
+  object-fit: cover;
+}

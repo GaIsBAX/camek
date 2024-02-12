@@ -1,0 +1,143 @@
+.header {
+  background: url("../assets/image/image\ 3.png");
+  height: 1080px;
+  color: var(--co-white);
+}
+
+/* .fone {
+  background-color: var(--bg-main-color);
+  opacity: 0.93;
+
+} */
+
+.header__wrapper {
+  background-color: var(--bg-main-color);
+  opacity: 0.93;
+  padding: 0 240px 0 260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.header__frame {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 0 12px;
+  margin: 0 0 0 0px;
+}
+
+.header__frame-link {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 12px;
+}
+
+.header__info-link {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.visually__impaired-icon {
+  width: 35px;
+  height: 20px;
+}
+
+.header__nav {
+  background-color: var(--bg-main-color);
+  opacity: 0.93;
+  /* width: 1400px; */
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.header__nav-list {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: start;
+  gap: 0 60px;
+}
+
+.header__strong {
+  font-weight: 400;
+}
+
+.header__nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.header__nav-link {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.header__title {
+  max-width: 190px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.image {
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__oprion-nav {
+  background-color: var(--bg-main-color);
+  opacity: 0;
+  padding: 30px 0 30px 0;
+  height: 150px;
+  /* max-width: 1400px; */
+  /* margin: 0 auto; */
+  color: var(--co-glowwhite);
+}
+
+.header__oprion-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.header__oprion-list {
+  /* display: flex;
+    justify-content: space-between;
+    align-items: start; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px 0;
+  align-items: start;
+  width: 415px;
+}
+
+/* .header__oprion-item {
+    font-size: 16px;
+    font-weight: 400;
+} */
+
+.header__oprion-link {
+  font-size: 16px;
+  font-weight: 400;
+}
