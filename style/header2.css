@@ -39,6 +39,10 @@
   filter: invert(1);
 }
 
+.header__image-white {
+  filter: invert(0);
+}
+
 .visually__impaired-icon {
   width: 35px;
   height: 20px;

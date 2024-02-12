@@ -97,12 +97,15 @@
 .small__card-title {
   color: #4b4b4b;
   position: relative;
+  margin: 0 0 0 10px;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .small__card-title::after {
   position: absolute;
   content: "";
-  width: 75px;
+  width: 88px;
   height: 2px;
   background-color: #4b4b4b;
   top: 25px;
@@ -110,10 +113,11 @@
 }
 
 .smaill__card-decription {
-  margin: 20px 0 0 0;
+  /* margin: 20px 0 0 0; */
   font-size: 16px;
   font-weight: 300;
   color: #000000;
+  margin: 20px 0 0 10px;
 }
 .news2 {
   /* width: 1500px; */
