@@ -1,0 +1,49 @@
+.main {
+  padding: 100px 0 275px 0;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+/* .header__text {
+} */
+
+.main__title {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.main__subtitle {
+  margin: 25px 0 0 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* .main__link {
+} */
+
+.main__decription {
+  margin: 20px 0 0 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.main__list {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.main__item {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.main__decription-nomargin {
+  margin: 0 0 0 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+.main__decription-margin {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  font-weight: 300;
+}

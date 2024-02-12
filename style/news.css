@@ -43,31 +43,34 @@
 }
 
 .news1 {
+  /* width: 995px; */
   display: flex;
   justify-content: center;
   align-items: start;
-  gap: 0 60px;
+  gap: 0 40px;
   flex-wrap: wrap;
 }
 
 .big__card1 {
-  width: 610px;
+  width: 585px;
   height: 430px;
   background: url(../assets/image/Rectangle\ 30.png) center/cover no-repeat;
   display: flex;
   align-items: start;
   justify-content: end;
   flex-direction: column;
-  margin: 0 10px 0 0;
+  margin: 0 40px 0 0;
   gap: 10px 0;
 }
+
 .big__card-title {
-  margin: 0 0 0 10px;
+  margin: 0 0 0 14px;
   color: #ffffff;
   font-size: 40px;
   font-weight: 400;
   position: relative;
 }
+
 .big__card-decription {
   margin: 0 0 0 10px;
   color: #ffffff;
@@ -86,7 +89,7 @@
 }
 
 .small__card {
-  width: 270px;
+  width: 272px;
   height: 430px;
   background-color: #ffffff;
 }
@@ -113,29 +116,29 @@
   color: #000000;
 }
 .news2 {
+  /* width: 1500px; */
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: start;
-  gap: 0 60px;
+  gap: 0 40px;
   flex-wrap: wrap;
 }
 
 .big__card2 {
-  width: 610px;
+  width: 585px;
   height: 430px;
   background: url(../assets/image/Rectangle\ 30.png) center/cover no-repeat;
   display: flex;
   align-items: start;
   justify-content: end;
   flex-direction: column;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 40px;
   gap: 10px 0;
 }
 
 .news__image {
-  width: 270px;
-  object-fit: contain;
+  width: 272px;
+  height: 244px;
+  object-fit: cover;
 }
-
-

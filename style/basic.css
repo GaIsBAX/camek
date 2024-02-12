@@ -54,3 +54,14 @@ blockquote {
   border: none;
   margin: 0 auto;
 }
+
+.devirder__horizontallyi {
+  width: 95%;
+  max-width: 2500px;
+  /* max-width: 3000px; */
+  height: 1px;
+  background-color: #000000;
+  opacity: 0.43;
+  border: none;
+  margin: 0 auto;
+}

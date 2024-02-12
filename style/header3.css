@@ -5,10 +5,10 @@
 }
 
 /* .fone {
-  background-color: var(--bg-main-color);
-  opacity: 0.93;
-
-} */
+    background-color: var(--bg-main-color);
+    opacity: 0.93;
+  
+  } */
 
 .header__wrapper {
   background-color: var(--bg-main-color);
@@ -102,7 +102,6 @@
 
 .header__oprion-nav {
   background-color: var(--bg-main-color);
-  opacity: 0;
   padding: 30px 0 30px 0;
   height: 150px;
   /* max-width: 1400px; */
@@ -121,8 +120,8 @@
 
 .header__oprion-list {
   /* display: flex;
-    justify-content: space-between;
-    align-items: start; */
+      justify-content: space-between;
+      align-items: start; */
 
   display: flex;
   flex-direction: column;
@@ -133,9 +132,9 @@
 }
 
 /* .header__oprion-item {
-    font-size: 16px;
-    font-weight: 400;
-} */
+      font-size: 16px;
+      font-weight: 400;
+  } */
 
 .header__oprion-link {
   font-size: 16px;

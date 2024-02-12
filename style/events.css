@@ -147,3 +147,16 @@
   height: 161px;
   object-fit: cover;
 }
+
+.events__next {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  margin: 5px 50px 0 0;
+}
+
+.events__link {
+  color: #595959;
+  font-size: 16px;
+  font-weight: 300;
+}
