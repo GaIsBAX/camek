@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Kelson Sans";
+  src: local("Kelson Sans Light RU"), local("KelsonSans-LightRU"),
+    url("/assets/Fonts/kelsonsanslightru.woff2") format("woff2"),
+    url("/assets/Fonts/kelsonsansregularru.woff") format("woff"),
+    url("/assets/Fonts/kelsonsanslightru.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kelson Sans";
+  src: local("Kelson Sans Regular RU"), local("KelsonSans-RegularRU"),
+    url("/assets/Fonts/kelsonsansregularru.woff2") format("woff2"),
+    url("/assets/Fonts/kelsonsansregularru.woff") format("woff"),
+    url("/assets/Fonts/kelsonsansregularru.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kelson Sans";
+  src: local("Kelson Sans Bold RU"), local("KelsonSans-BoldRU"),
+    url("/assets/Fonts/kelsonsansboldru.woff2") format("woff2"),
+    url("/assets/Fonts/kelsonsansboldru.woff") format("woff"),
+    url("/assets/Fonts/kelsonsansboldru.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

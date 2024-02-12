@@ -1,0 +1,149 @@
+.events {
+  padding: 20px 0 80px 0;
+}
+
+.events__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px 65px;
+  flex-wrap: wrap;
+  padding: 40px 0 25px 0;
+}
+
+.events__big-big-card {
+  width: 786px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.events__big-info {
+  padding: 30px 0 115px 0;
+  background-color: #cedcff;
+  width: 299px;
+  height: 487px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.events__big-title {
+  margin: 0 0 35px 0;
+  width: 207px;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  color: #4b4b4b;
+}
+
+.events__big-title::after {
+  position: absolute;
+  content: "";
+  width: 228px;
+  height: 2px;
+  background-color: #000000;
+  opacity: 0.43;
+  top: 160px;
+  left: 0;
+}
+
+.events__big-name {
+  width: 208px;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 35px 0;
+  text-align: center;
+  color: #4b4b4b;
+}
+
+.events__big-adrees {
+  width: 213px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #4b4b4b;
+}
+
+.events__big-small-info {
+  width: 786px;
+  height: 114px;
+  background-color: #edf2ff;
+}
+
+.events__big-small-decription {
+  margin: 0 0 0 10px;
+  /* background-color: #fff; */
+  font-size: 16px;
+  font-weight: 300;
+  width: 752px;
+  /* border: 1px black solid; */
+  color: #4b4b4b;
+}
+
+.events__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px 0;
+}
+
+.events__small-card {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 907px;
+  height: 161px;
+}
+
+.events__small-big-info {
+  width: 400px;
+  height: 161px;
+  background-color: #cedcff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.events__small-title {
+  width: 213px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.events__small-title-size {
+  width: 100px;
+  font-size: 24px;
+}
+
+.events__small-small-info {
+  background-color: #edf2ff;
+  width: 454px;
+  height: 161px;
+}
+
+.events__small-small-decriprion {
+  width: 439px;
+  margin: 9px 8px 9px 8px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.events__image {
+  width: 487px;
+  height: 487px;
+  object-fit: cover;
+}
+
+.events__image-small {
+  width: 176px;
+  height: 161px;
+  object-fit: cover;
+}

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="fone">
+        <div class="container">
+          <div class="header__wrapper">
+            <div class="header__frame">
+              <a href="#" class="header__frame-link">Корпус 1</a>
+              <hr class="devider__vertically" />
+              <a href="#" class="header__frame-link">Корпус 2</a>
+            </div>
+
+            <div class="header__info">
+              <a href="#" class="header__info-link"
+                >Направления образовательной деятельности
+              </a>
+              <hr class="devider__vertically" />
+              <a href="#" class="header__info-link">Вакансии колледжа</a>
+              <svg class="visually__impaired-icon">
+                <use href="/assets/sprites.svg#visually__impaired-icon"></use>
+              </svg>
+            </div>
+          </div>
+
+          <hr class="devirder__horizontally" />
+
+          <nav class="header__nav header__info-ab">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link header__info-cv"
+                  >СВЕДЕНИЯ</a
+                >
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link header__info-ab"
+                  >АБИРУРИЕНТАМ</a
+                >
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link header__info-ct"
+                  >СТУДЕНТАМ</a
+                >
+              </li>
+              <li class="header__nav-item">
+                <img
+                  src="/assets/image/RUTOV2k 3.png"
+                  alt="самек"
+                  class="header__image"
+                />
+                <h1 class="header__title">
+                  <a href="#">
+                    <strong class="header__strong">САМАРСКИЙ</strong>
+                    МЕТАЛЛУРГИЧЕСКИЙ КОЛЛЕДЖ
+                  </a>
+                </h1>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link header__info-ob"
+                  >ОБРАЗОВАНИЕ</a
+                >
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link header__info-vp"
+                  >ВЫПУСКНИКАМ</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <hr class="devirder__horizontally" />
+          <nav class="header__oprion-nav">
+            <div class="header__oprion-wrapper header__oprion-ab">
+              <ul class="header__oprion-list">
+                <li class="header__oprion-item">
+                  <a href="header__oprion-link">Прием в СаМеК</a>
+                </li>
+                <li class="header__oprion-item">
+                  <a href="" class="header__oprion-link"
+                    >Программы подготовки</a
+                  >
+                </li>
+                <li class="header__oprion-item">
+                  <a href="" class="header__oprion-link"
+                    >Профориентационная работа</a
+                  >
+                </li>
+              </ul>
+
+              <ul class="header__oprion-list">
+                <li class="header__oprion-item">
+                  <a href="" class="header__oprion-link"
+                    >Специальности и профессии (профессиограммы)</a
+                  >
+                </li>
+                <li class="header__oprion-item">
+                  <a href="" class="header__oprion-link"
+                    >Сведения о наборе абитуриентов с инвалидностью и ОВЗ</a
+                  >
+                </li>
+                <li class="header__oprion-item">
+                  <a href="" class="header__oprion-link"
+                    >Документы необходимые при поступлении
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="header__oprion-list">
+                <li class="header__oprion-item">
+                  <a href="" class="header__oprion-link"
+                    >Количество мест для приема</a
+                  >
+                </li>
+                <li class="header__oprion-item">
+                  <a href="" class="header__oprion-link"
+                    >Рейтинг поданных заявлений</a
+                  >
+                </li>
+                <li class="header__oprion-item">
+                  <a href="" class="header__oprion-link"
+                    >Приказы о зачислении на обучение</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="image">
+        <img src="/assets/image/RUTOV2k 1.png" alt="fa" class="hero__image" />
+      </div>
+
+      <script>
+        function removeClassActiveAb() {
+          $(".header__oprion-ab").removeClass("active");
+        }
+        function addClassActiveAb() {
+          $(".header__oprion-ab").addClass("active");
+        }
+
+        $(".header__info-ab").on("mouseenter", addClassActiveAb);
+        $(".header__oprion-nav").on("mouseleave", removeClassActiveAb);
+        $(".header__wrapper").on("mouseenter", function () {
+          $(".header__oprion-nav").children().removeClass("active");
+        });
+      </script>
+    </header>
+
+    <main>
+      <section class="news">
+        <div class="news__camek">
+          <hr class="devider__verticallyi" />
+          <h2 class="news__title">CаМек Сегодня</h2>
+          <hr class="devider__verticallyi" />
+        </div>
+
+        <div class="news__news">
+          <div class="news__news-wrapper">
+            <div class="news1">
+              <div class="big__card1">
+                <h2 class="big__card-title">Новости</h2>
+                <p class="big__card-decription">
+                  На базе СаМеК была проведена профилактическая лекция под
+                  названием «Железная дорога – зона повышенной опасности.
+                </p>
+              </div>
+              <div class="small__card">
+                <img
+                  src="/assets/image/Rectangle 36.png"
+                  alt=""
+                  class="news__image"
+                />
+                <h3 class="small__card-title">Новости</h3>
+                <h3 class="smaill__card-decription">
+                  Сегодня участники Клуба Большой Перемены приняли участие в
+                  отборочном этапе турнира интеллектуальных игр "Зимний кубок
+                  городского округа Самара"!
+                </h3>
+              </div>
+              <div class="small__card">
+                <img
+                  src="/assets/image/Rectangle 35.png"
+                  alt=""
+                  class="news__image"
+                />
+                <h3 class="small__card-title">Новости</h3>
+                <h3 class="smaill__card-decription">
+                  1 февраля команда ГАПОУ «СаМеК» провела выездное мероприятие
+                  по консультированию учащихся СОШ в г.Чапаевск! Школьники
+                  удаленных мест от г.Самара
+                </h3>
+              </div>
+            </div>
+            <div class="news2">
+              <div class="big__card2">
+                <h2 class="big__card-title">Новости</h2>
+                <p class="big__card-decription">
+                  На базе СаМеК была проведена профилактическая лекция под
+                  названием «Железная дорога – зона повышенной опасности.
+                </p>
+              </div>
+
+              <div class="small__card">
+                <img
+                  src="/assets/image/Rectangle 25.png"
+                  alt=""
+                  class="news__image"
+                />
+                <h3 class="small__card-title">Новости</h3>
+                <h3 class="smaill__card-decription">
+                  Выбрать удобный избирательный участок для голосования и подать
+                  заявление до 11 марта 2024 года: https://vk.cc/curHnx
+                </h3>
+              </div>
+
+              <div class="small__card">
+                <img
+                  src="/assets/image/Rectangle 26.png"
+                  alt=""
+                  class="news__image"
+                />
+                <h3 class="small__card-title">Новости</h3>
+                <h3 class="smaill__card-decription">
+                  Студенты Самарского металлургического колледжа посетили
+                  праздничное мероприятие посвященное дню Российской науки.
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="events">
+        <div class="news__camek">
+          <hr class="devider__verticallyi" />
+          <h2 class="news__title">Мероприятия</h2>
+          <hr class="devider__verticallyi" />
+        </div>
+
+        <hr class="divider__devirder__horizontally" />
+
+        <div class="events__wrapper">
+          <div class="events__big-big-card">
+            <img
+              src="./assets/image/Rectangle 91.png"
+              alt=""
+              class="events__image"
+            />
+            <div class="events__big-info">
+              <h2 class="events__big-title">15 Февраля 02.2024 13:00</h2>
+              <h3 class="events__big-name">
+                Самарский Металлургический Колледж
+              </h3>
+              <h4 class="events__big-adrees">Ул.Алма-Атинская. 1</h4>
+            </div>
+
+            <div class="events__big-small-info">
+              <p class="events__big-small-decription">
+                Развлекательно-познавательная программа для молодежи
+                «Музыкальное удовольствие» – это музыкальное путешествие по
+                композициям 20-го века! Программа берет свое начало в русской
+                народной музыке и двигается к современной российской эстраде.
+                А.Островский, А.Бабаджанян, А.Пахмутова – только часть авторов
+                музыкальных произведений, которые прозвучат на
+                экскурсии-концерте!
+              </p>
+            </div>
+          </div>
+
+          <ul class="events__list">
+            <li class="events__small-card">
+              <img
+                src="/assets/image/Rectangle 46.png"
+                alt=""
+                class="events__image-small"
+              />
+              <div class="events__small-big-info">
+                <h2 class="events__small-title">24 Февраля 02.2024 12:30</h2>
+              </div>
+              <div class="events__small-small-info">
+                <p class="events__small-small-decriprion">
+                  Владимир Путин поздравит студентов в ходе встречи с учащимися
+                  Самарских колледжей.
+                </p>
+              </div>
+            </li>
+
+            <li class="events__small-card">
+              <img
+                src="/assets/image/Rectangle 47.png"
+                alt=""
+                class="events__image-small"
+              />
+              <div class="events__small-big-info">
+                <h2 class="events__small-title events__small-title-size">
+                  30.02.2024 14:00 по 03.03.2024 12:30
+                </h2>
+              </div>
+              <div class="events__small-small-info">
+                <p class="events__small-small-decriprion">
+                  Спортивный турнир среди юношей ГАПОУ «СаМеК» «Молодецкие
+                  игры», посвящённые Дню Защитника Отечества и 80-летию
+                  колледжа. К соревнованиям допускаются все группы юношей ГАПОУ
+                  СаМеК.Состав команды 5 человек. Заявки принимаются в
+                  спортивном зале до 15.02.2024.
+                </p>
+              </div>
+            </li>
+            <li class="events__small-card">
+              <img
+                src="/assets/image/Rectangle 48.png"
+                alt=""
+                class="events__image-small"
+              />
+              <div class="events__small-big-info">
+                <h2 class="events__small-title">24 Февраля 02.2024 12:30</h2>
+              </div>
+              <div class="events__small-small-info">
+                <p class="events__small-small-decriprion">
+                  В ГБОУ СОШ №1 пгт Смышляевка состоится слёт
+                  военно-патриотических объединений Самары и Самарской области,
+                  принимавших участие в проекте "Навечно в строю", поддержанном
+                  Фондом президентских грантов.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <hr class="divider__devirder__horizontally" />
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="">
+        <ul class="">
+          <li class="header__nav-item">
+            <img
+              src="/assets/image/RUTOV2k 3.png"
+              alt="самек"
+              class="header__image"
+            />
+            <h2 class="header__title">
+              <a href="#">
+                <strong class="header__strong">САМАРСКИЙ</strong>
+                МЕТАЛЛУРГИЧЕСКИЙ КОЛЛЕДЖ
+              </a>
+            </h2>
+          </li>
+          <li class="">
+            <h3></h3>
+            <p class=""></p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
