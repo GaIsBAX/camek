@@ -45,6 +45,11 @@ blockquote {
   margin: 0 auto;
 }
 
+.devider__vertically-black {
+  background-color: #000000;
+  opacity: 0.43;
+}
+
 .devirder__horizontally {
   width: 100%;
   max-width: 3000px;
